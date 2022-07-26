@@ -42,9 +42,9 @@ A list of papers and resources dedicated to code generation
 - IdBench: [IdBench: Evaluating Semantic Representations of Identifier Names in Source Code](https://arxiv.org/abs/1910.05177), ICSE2021
 - VarCLR: [VarCLR: Variable Semantic Representation Pre-training via Contrastive Learning](https://arxiv.org/pdf/2112.02650), ICSE2022
 
-### code snippet representation
+### code representation
 - IRGen: [Unleashing the Power of Compiler Intermediate Representation to Enhance Neural Program Embeddings](https://arxiv.org/pdf/2204.09191.pdf), ICSE2022
-
+- Grape: [Grape: Grammar-Preserving Rule Embedding](https://xiongyingfei.github.io/papers/IJCAI22a.pdf), IJCAI2022
 
 ## Pretrained models
 - CodeBERT: [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155), 2020
