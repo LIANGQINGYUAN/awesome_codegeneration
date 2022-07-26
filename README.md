@@ -1,3 +1,15 @@
+- [Code Generation](#code-generation)
+- [Datasets](#datasets)
+  - [Imperative programming language generation datasets](#imperative-programming-language-generation-datasets)
+  - [Specific to SQL generated datasets](#specific-to-sql-generated-datasets)
+- [Techniques](#techniques)
+  - [Generation architectures](#generation-architectures)
+  - [Representation for code](#representation-for-code)
+    - [variable representation](#variable-representation)
+    - [code representation](#code-representation)
+  - [Pretrained models](#pretrained-models)
+- [End](#end)
+
 # Code Generation
 A list of papers and resources dedicated to code generation
 
