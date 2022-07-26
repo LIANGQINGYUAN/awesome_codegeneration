@@ -10,6 +10,7 @@ A list of papers and resources dedicated to code generation
 - APPS: [Measuring coding challenge competence with apps](https://arxiv.org/abs/2105.09938), 2021
 - HumanEval: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
 - CodeContest: [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814), 2022
+- Lyra: [Lyra: A Benchmark for Turducken-Style Code Generation](https://arxiv.org/abs/2108.12144), 2022
 
 ## Specific to SQL generated datasets
 - ATIS: [Evaluation of spoken language systems: The ATIS domain](https://aclanthology.org/H90-1020.pdf),1990; [Learning a neural semantic parser from user feedback](https://arxiv.org/pdf/1704.08760.pdf), 2017
@@ -33,11 +34,27 @@ A list of papers and resources dedicated to code generation
 
 
 # Techniques
-## Network architectures
+## Generation architectures
 - TreeGen: [TreeGen: A Tree-Based Transformer Architecture for Code Generation](https://ojs.aaai.org/index.php/AAAI/article/view/6430), 2020
 
-## Pretraned models
+## Representation for code
+### variable representation
+- IdBench: [IdBench: Evaluating Semantic Representations of Identifier Names in Source Code](https://arxiv.org/abs/1910.05177), ICSE2021
+- VarCLR: [VarCLR: Variable Semantic Representation Pre-training via Contrastive Learning](https://arxiv.org/pdf/2112.02650), ICSE2022
+
+### code snippet representation
+- IRGen: [Unleashing the Power of Compiler Intermediate Representation to Enhance Neural Program Embeddings](https://arxiv.org/pdf/2204.09191.pdf), ICSE2022
+
+
+## Pretrained models
 - CodeBERT: [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155), 2020
 - GraphCodeBERT: [GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366), 2020
 - CodeGPT: [CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation](https://arxiv.org/abs/2102.04664), 2021
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
+
+
+# End
+Welcome to recommend code generation papers!
+
+Please let me know if you have any interesting work related to code generation task!
+
