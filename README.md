@@ -1,7 +1,7 @@
 - [Code Generation](#code-generation)
 - [Datasets](#datasets)
-  - [Imperative programming language generation datasets](#imperative-programming-language-generation-datasets)
-  - [Specific to SQL generated datasets](#specific-to-sql-generated-datasets)
+  - [Dataset for imperative programming language generation](#dataset-for-imperative-programming-language-generation)
+  - [Dataset for Text-to-SQL generation](#dataset-for-text-to-sql-generation)
 - [Techniques](#techniques)
   - [Generation architectures](#generation-architectures)
   - [Representation for code](#representation-for-code)
@@ -14,7 +14,7 @@
 A list of papers and resources dedicated to code generation
 
 # Datasets
-## Imperative programming language generation datasets
+## Dataset for imperative programming language generation
 - Djongo: [Learning to generate pseudo-code from source code using statistical machine translation](https://ieeexplore.ieee.org/document/7372045), 2015
 - Hearthstone: [Latent Predictor Networks for Code Generation](https://arxiv.org/pdf/1603.06744.pdf), 2016
 - CoNaLa: [Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow](https://arxiv.org/abs/1805.08949?context=cs), 2018
@@ -24,7 +24,7 @@ A list of papers and resources dedicated to code generation
 - CodeContest: [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814), 2022
 - Lyra: [Lyra: A Benchmark for Turducken-Style Code Generation](https://arxiv.org/abs/2108.12144), 2022
 
-## Specific to SQL generated datasets
+## Dataset for Text-to-SQL generation
 - ATIS: [Evaluation of spoken language systems: The ATIS domain](https://aclanthology.org/H90-1020.pdf),1990; [Learning a neural semantic parser from user feedback](https://arxiv.org/pdf/1704.08760.pdf), 2017
 - GeoQuery: [Learning to parse database queries using inductive logic programming](https://www.cs.utexas.edu/~ml/papers/chill-aaai-96.pdf), 1996; [Towards a theory of natural language interfaces to databases](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.473.6162&rep=rep1&type=pdf), 2003
 - Restaurants: [Automated construction of database interfaces: Intergrating statistical and relational learning for semantic parsing](https://aclanthology.org/W00-1317.pdf), 2000
