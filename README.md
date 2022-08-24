@@ -1,20 +1,19 @@
 - [Code Generation](#code-generation)
-- [Datasets](#datasets)
-  - [Dataset for imperative programming language generation](#dataset-for-imperative-programming-language-generation)
-  - [Dataset for Text-to-SQL generation](#dataset-for-text-to-sql-generation)
-- [Techniques](#techniques)
-  - [Generation architectures](#generation-architectures)
-  - [Representation for code](#representation-for-code)
-    - [variable representation](#variable-representation)
-    - [code representation](#code-representation)
-  - [Pretrained models](#pretrained-models)
+  - [Datasets](#datasets)
+    - [Dataset for imperative programming language generation](#dataset-for-imperative-programming-language-generation)
+    - [Dataset for Text-to-SQL generation](#dataset-for-text-to-sql-generation)
+  - [Techniques](#techniques)
+    - [Generation architectures](#generation-architectures)
+    - [Representation for code](#representation-for-code)
+    - [Pretrained models](#pretrained-models)
+- [Code Understanding](#code-understanding)
 - [End](#end)
 
 # Code Generation
 A list of papers and resources dedicated to code generation
 
-# Datasets
-## Dataset for imperative programming language generation
+## Datasets
+### Dataset for imperative programming language generation
 - Djongo: [Learning to generate pseudo-code from source code using statistical machine translation](https://ieeexplore.ieee.org/document/7372045), 2015
 - Hearthstone: [Latent Predictor Networks for Code Generation](https://arxiv.org/pdf/1603.06744.pdf), 2016
 - CoNaLa: [Learning to Mine Aligned Code and Natural Language Pairs from Stack Overflow](https://arxiv.org/abs/1805.08949?context=cs), 2018
@@ -24,7 +23,7 @@ A list of papers and resources dedicated to code generation
 - CodeContest: [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814), 2022
 - Lyra: [Lyra: A Benchmark for Turducken-Style Code Generation](https://arxiv.org/abs/2108.12144), 2022
 
-## Dataset for Text-to-SQL generation
+### Dataset for Text-to-SQL generation
 - ATIS: [Evaluation of spoken language systems: The ATIS domain](https://aclanthology.org/H90-1020.pdf),1990; [Learning a neural semantic parser from user feedback](https://arxiv.org/pdf/1704.08760.pdf), 2017
 - GeoQuery: [Learning to parse database queries using inductive logic programming](https://www.cs.utexas.edu/~ml/papers/chill-aaai-96.pdf), 1996; [Towards a theory of natural language interfaces to databases](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.473.6162&rep=rep1&type=pdf), 2003
 - Restaurants: [Automated construction of database interfaces: Intergrating statistical and relational learning for semantic parsing](https://aclanthology.org/W00-1317.pdf), 2000
@@ -45,24 +44,40 @@ A list of papers and resources dedicated to code generation
 - CHASE: [Chase: A Large-Scale and Pragmatic Chinese Dataset for Cross-Database Context-Dependent Text-to-SQL](https://aclanthology.org/2021.acl-long.180/), 2021
 
 
-# Techniques
-## Generation architectures
+## Techniques
+### Generation architectures
 - TreeGen: [TreeGen: A Tree-Based Transformer Architecture for Code Generation](https://ojs.aaai.org/index.php/AAAI/article/view/6430), 2020
 
-## Representation for code
-### variable representation
+### Representation for code
+
+**variable representation**
+
 - IdBench: [IdBench: Evaluating Semantic Representations of Identifier Names in Source Code](https://arxiv.org/abs/1910.05177), ICSE2021
 - VarCLR: [VarCLR: Variable Semantic Representation Pre-training via Contrastive Learning](https://arxiv.org/pdf/2112.02650), ICSE2022
 
-### code representation
+**code representation**
+
 - IRGen: [Unleashing the Power of Compiler Intermediate Representation to Enhance Neural Program Embeddings](https://arxiv.org/pdf/2204.09191.pdf), ICSE2022
 - Grape: [Grape: Grammar-Preserving Rule Embedding](https://xiongyingfei.github.io/papers/IJCAI22a.pdf), IJCAI2022
 
-## Pretrained models
+### Pretrained models
 - CodeBERT: [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155), 2020
 - GraphCodeBERT: [GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366), 2020
 - CodeGPT: [CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation](https://arxiv.org/abs/2102.04664), 2021
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
+
+# Code Understanding
+- Compressor: [Compressing Pre-trained Models of Code into 3 MB](https://arxiv.org/abs/2208.07120), ASE2022
+<details>
+<summary>more</summary>
+<pre>
+Compressor proposes a genetic algorithm (GA)-based strategy to guide the simplification process. They use the knowledge distillation technique to train the small model: unlabelled data is fed into the large model and the outputs are used as labels to train the small model. 
+</pre>
+</details>
+
+
+
+
 
 
 # End
