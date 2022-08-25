@@ -70,8 +70,12 @@ A list of papers and resources dedicated to code generation
 - Compressor: [Compressing Pre-trained Models of Code into 3 MB](https://arxiv.org/abs/2208.07120), ASE2022
   <details>
   <summary><code>abstract</code></summary>
+  <small>
   Compressor proposes a <b>genetic algorithm (GA)-based</b> strategy to guide the simplification process. 
-  They use the knowledge <b>distillation technique</b> to train the small model: unlabelled data is fed into the large model and the outputs are used as labels to train the small model. 
+  They use the knowledge <b>distillation technique</b> to train the small model: unlabelled data is fed into the large model and the outputs are used as labels to train the small model.
+  </small>
+  <br>
+  <img src="./imgs/Compressor_img01.png" width="200"/>
   </details>
 
 
