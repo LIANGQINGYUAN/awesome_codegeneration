@@ -75,7 +75,7 @@ A list of papers and resources dedicated to code generation
   They use the knowledge <b>distillation technique</b> to train the small model: unlabelled data is fed into the large model and the outputs are used as labels to train the small model.
   </small>
   <br>
-  <img src="./imgs/Compressor_img01.png" width="200"/>
+  <img src="./imgs/Compressor_img01.png" width="300"/>
   </details>
 
 
