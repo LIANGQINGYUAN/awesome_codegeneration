@@ -27,7 +27,7 @@ A list of papers and resources dedicated to code generation
   <details>
   <summary><code>abstract</code></summary>
   <small>
-  This paper define a new code generation task: given a natural language comment, this task aims to generate a program in a base imperative lan- guage with an embedded declarative language. Then they present Lyra: a dataset in Python with embedded SQL. This dataset contains 2,000 carefully annotated database manip- ulation programs from real-world projects. Each program is paired with both a Chinese comment and an English comment.
+  This paper define a new code generation task: given a natural language comment, this task aims to generate a program in a base imperative language with an embedded declarative language. Then they present Lyra: a dataset in Python with embedded SQL. This dataset contains 2,000 carefully annotated database manip- ulation programs from real-world projects. Each program is paired with both a Chinese comment and an English comment.
   </small>
   </details>
 
