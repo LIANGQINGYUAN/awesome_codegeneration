@@ -7,6 +7,8 @@
     - [Representation for code](#representation-for-code)
     - [Pretrained models](#pretrained-models)
 - [Code Understanding](#code-understanding)
+  - [Datasets](#datasets-1)
+  - [Techniques](#techniques-1)
 - [End](#end)
 
 # Code Generation
@@ -67,6 +69,28 @@ A list of papers and resources dedicated to code generation
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
 
 # Code Understanding
+
+## Datasets
+- BigCloneBench
+  - provided by:[Towards a Big Data Curated Benchmark of Inter-project Code Clones](https://ieeexplore.ieee.org/document/6976121)
+  - filtered by: [Detecting Code Clones with Graph Neural Network and Flow-Augmented Abstract Syntax Tree](https://arxiv.org/abs/2002.08653)
+  <details>
+  <summary><code>abstract</code></summary>
+  <small>
+  The dataset includes 901,028/415,416/415,416 pairs for training, validation and testing, respectively. 
+  </small>
+  </details>
+
+- POJ-104: [Convolutional Neural Networks over Tree Structures for Programming Language Processing](https://arxiv.org/pdf/1409.5718.pdf)  
+  <details>
+  <summary><code>abstract</code></summary>
+  <small>
+  POJ104 dataset is collected from an online judge platform, which consists of 104 program classes and includes 500 student-written C/C++ programs for each class. 
+  </small>
+  </details>
+
+## Techniques
+
 - Compressor: [Compressing Pre-trained Models of Code into 3 MB](https://arxiv.org/abs/2208.07120), ASE2022
   <details>
   <summary><code>abstract</code></summary>
