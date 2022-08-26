@@ -24,6 +24,12 @@ A list of papers and resources dedicated to code generation
 - HumanEval: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
 - CodeContest: [Competition-Level Code Generation with AlphaCode](https://arxiv.org/abs/2203.07814), 2022
 - Lyra: [Lyra: A Benchmark for Turducken-Style Code Generation](https://arxiv.org/abs/2108.12144), 2022
+  <details>
+  <summary><code>abstract</code></summary>
+  <small>
+  This paper define a new code generation task: given a natural language comment, this task aims to generate a program in a base imperative lan- guage with an embedded declarative language. Then they present Lyra: a dataset in Python with embedded SQL. This dataset contains 2,000 carefully annotated database manip- ulation programs from real-world projects. Each program is paired with both a Chinese comment and an English comment.
+  </small>
+  </details>
 
 ### Dataset for Text-to-SQL generation
 - ATIS: [Evaluation of spoken language systems: The ATIS domain](https://aclanthology.org/H90-1020.pdf),1990; [Learning a neural semantic parser from user feedback](https://arxiv.org/pdf/1704.08760.pdf), 2017
