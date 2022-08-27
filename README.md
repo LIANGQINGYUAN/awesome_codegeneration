@@ -72,8 +72,22 @@ A list of papers and resources dedicated to code generation
 - CodeBERT: [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155), 2020
 - GraphCodeBERT: [GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366), 2020
 - CodeGPT: [CodeXGLUE: A Machine Learning Benchmark Dataset for Code Understanding and Generation](https://arxiv.org/abs/2102.04664), 2021
+  <details>
+  <summary><code>abstract</code></summary>
+  <small>
+  This paper introduce CodeXGLUE, a benchmark dataset and open challenge for code intelligence. It includes a collection of code intelligence tasks and a platform for model evaluation and comparison.
+  CodeXGLUE stands for General Language Understanding Evaluation benchmark for CODE. It includes 14 datasets for 10 diversified code intelligence tasks covering the following scenarios:
+  (1)code-code (clone detection, defect detection, cloze test, code completion, code repair, and code-to-code translation);
+  (2)text-code (natural language code search, text-to-code generation);
+  (3)code-text (code summarization);
+  (4)text-text (documentation translation);
+  </small>
+  <br>
+  <img src="./imgs/CodeXGLUE.png" width="500"/>
+  </details>
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
 
+  
 # Code Understanding
 
 ## Datasets
