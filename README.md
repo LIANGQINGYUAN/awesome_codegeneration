@@ -6,6 +6,7 @@
     - [Generation architectures](#generation-architectures)
     - [Representation for code](#representation-for-code)
     - [Pretrained models](#pretrained-models)
+  - [Tools](#tools)
 - [Code Understanding](#code-understanding)
   - [Datasets](#datasets-1)
   - [Techniques](#techniques-1)
@@ -87,7 +88,16 @@ A list of papers and resources dedicated to code generation
   </details>
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
 
-  
+## Tools
+
+- Gihub [Copilot](https://github.com/features/copilot): GitHub Copilot uses the OpenAI Codex to suggest code and entire functions in real-time, right from your editor.
+- [Tabnine](https://www.tabnine.com): Tabnine AI models are only trained on permissive open source licensed code, so your code will always remain yours. 
+- Amazon [CodeWhisperer](https://aws.amazon.com/codewhisperer/): Build applications faster with the ML-powered coding companion.
+- [Captain Stack](https://github.com/hieunc229/copilot-clone): This feature is somewhat similar to Github Copilot's code suggestion. But instead of using AI, it sends your search query to Google, then retrieves StackOverflow and Github Gist answers and autocompletes them for you.
+
+
+
+
 # Code Understanding
 
 ## Datasets
