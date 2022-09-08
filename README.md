@@ -88,6 +88,8 @@ A list of papers and resources dedicated to code generation
   <br>
   <img src="./imgs/CodeXGLUE.png" width="500"/>
   </details>
+- CodeT5: [CodeT5: Identifier-aware Unified Pre-trained Encoder-Decoder Models for Code Understanding and Generation](https://arxiv.org/abs/2109.00859v1), EMNLP2021
+- PLBART: [Unified Pre-training for Program Understanding and Generation](https://arxiv.org/abs/2103.06333), NAACL2021
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
 - PANGU-CODER: [PANGU-CODER: Program Synthesis with Function-Level Language Modeling](https://arxiv.org/abs/2207.11280), 2022
 - CoditT5: [CoditT5: Pretraining for Source Code and Natural Language Editing](https://arxiv.org/abs/2208.05446), ASE 2022
