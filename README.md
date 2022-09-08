@@ -10,6 +10,7 @@
 - [Code Understanding](#code-understanding)
   - [Datasets](#datasets-1)
   - [Techniques](#techniques-1)
+    - [Understanding with GNNs](#understanding-with-gnns)
 - [End](#end)
 
 # Code Generation
@@ -57,6 +58,7 @@ A list of papers and resources dedicated to code generation
 ### Generation architectures
 - TreeGen: [TreeGen: A Tree-Based Transformer Architecture for Code Generation](https://ojs.aaai.org/index.php/AAAI/article/view/6430), 2020
 
+
 ### Representation for code
 
 **variable representation**
@@ -87,6 +89,20 @@ A list of papers and resources dedicated to code generation
   <img src="./imgs/CodeXGLUE.png" width="500"/>
   </details>
 - CodeX: [Evaluating large language models trained on code](https://arxiv.org/abs/2107.03374), 2021
+- PANGU-CODER: [PANGU-CODER: Program Synthesis with Function-Level Language Modeling](https://arxiv.org/abs/2207.11280), 2022
+- CoditT5: [CoditT5: Pretraining for Source Code and Natural Language Editing](https://arxiv.org/abs/2208.05446), ASE 2022
+  <details>
+  <summary><code>abstract</code></summary>
+  <small>
+  This paper propose a novel pretraining objective which explicitly models edits and use it to build CoditT5, a large language model for software-related editing tasks that is pretrained on large amounts of source code and natural language comments. 
+  </small>
+  <br>
+  <img src="./imgs/CoditT5.png" width="500"/>
+  <br>
+  <small>
+  They propose an edit-based output sequence representation: [Edit Plan] &lt;s> [Target Sequence], where the model is trained to generate an edit plan ( 1 ) consisting of explicit edit operations that reconstruct the input sequence, followed by a separation token (&lt;s>), and finally the target sequence ( 2 ) that matches the original input sequence.
+  </small>
+  </details>
 
 ## Tools
 
@@ -132,7 +148,9 @@ A list of papers and resources dedicated to code generation
   <img src="./imgs/Compressor_img01.png" width="300"/>
   </details>
 
+### Understanding with GNNs
 
+coming soon
 
 
 
