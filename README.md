@@ -10,6 +10,7 @@
 - [Code Understanding](#code-understanding)
   - [Datasets](#datasets-1)
   - [Techniques](#techniques-1)
+    - [Understanding with pre-trained models](#understanding-with-pre-trained-models)
     - [Understanding with GNNs](#understanding-with-gnns)
 - [End](#end)
 
@@ -138,6 +139,9 @@ A list of papers and resources dedicated to code generation
   </details>
 
 ## Techniques
+
+### Understanding with pre-trained models
+
 - [Bridging pre-trained models and downstream tasks for source code understanding](https://arxiv.org/abs/2112.02268), ICSE2022
   
 - ALERT: [Natural Attack for Pre-trained Models of Code](https://arxiv.org/abs/2201.08698), ICSE2022
