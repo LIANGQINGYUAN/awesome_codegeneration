@@ -138,6 +138,10 @@ A list of papers and resources dedicated to code generation
   </details>
 
 ## Techniques
+- [Bridging pre-trained models and downstream tasks for source code understanding](https://arxiv.org/abs/2112.02268), ICSE2022
+  
+- ALERT: [Natural Attack for Pre-trained Models of Code](https://arxiv.org/abs/2201.08698), ICSE2022
+
 
 - Compressor: [Compressing Pre-trained Models of Code into 3 MB](https://arxiv.org/abs/2208.07120), ASE2022
   <details>
@@ -149,6 +153,8 @@ A list of papers and resources dedicated to code generation
   <br>
   <img src="./imgs/Compressor_img01.png" width="300"/>
   </details>
+
+
 
 ### Understanding with GNNs
 
