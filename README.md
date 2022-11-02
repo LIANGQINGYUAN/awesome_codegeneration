@@ -60,18 +60,6 @@ A list of papers and resources dedicated to code generation
 - TreeGen: [TreeGen: A Tree-Based Transformer Architecture for Code Generation](https://ojs.aaai.org/index.php/AAAI/article/view/6430), 2020
 
 
-### Representation for code
-
-**variable representation**
-
-- IdBench: [IdBench: Evaluating Semantic Representations of Identifier Names in Source Code](https://arxiv.org/abs/1910.05177), ICSE2021
-- VarCLR: [VarCLR: Variable Semantic Representation Pre-training via Contrastive Learning](https://arxiv.org/pdf/2112.02650), ICSE2022
-
-**code representation**
-
-- IRGen: [Unleashing the Power of Compiler Intermediate Representation to Enhance Neural Program Embeddings](https://arxiv.org/pdf/2204.09191.pdf), ICSE2022
-- Grape: [Grape: Grammar-Preserving Rule Embedding](https://xiongyingfei.github.io/papers/IJCAI22a.pdf), IJCAI2022
-
 ### Pretrained models
 - CodeBERT: [CodeBERT: A Pre-Trained Model for Programming and Natural Languages](https://arxiv.org/abs/2002.08155), 2020
 - GraphCodeBERT: [GraphCodeBERT: Pre-training Code Representations with Data Flow](https://arxiv.org/abs/2009.08366), 2020
@@ -116,7 +104,6 @@ A list of papers and resources dedicated to code generation
 
 
 
-
 # Code Understanding
 
 ## Datasets
@@ -140,6 +127,26 @@ A list of papers and resources dedicated to code generation
 
 ## Techniques
 
+### Variable representation
+
+- IdBench: [IdBench: Evaluating Semantic Representations of Identifier Names in Source Code](https://arxiv.org/abs/1910.05177), ICSE2021
+- VarCLR: [VarCLR: Variable Semantic Representation Pre-training via Contrastive Learning](https://arxiv.org/pdf/2112.02650), ICSE2022
+
+### Code representation
+
+- IRGen: [Unleashing the Power of Compiler Intermediate Representation to Enhance Neural Program Embeddings](https://arxiv.org/pdf/2204.09191.pdf), ICSE2022
+
+### Code and comment
+- [Associating Natural Language Comment and Source Code Entities](https://arxiv.org/abs/1912.06728), AAAI20
+
+
+### Understanding with GNNs
+
+- [Deep Just-In-Time Inconsistency Detection Between Comments and Source Cod](https://arxiv.org/abs/2010.01625), AAAI21
+
+- Grape: [Grape: Grammar-Preserving Rule Embedding](https://xiongyingfei.github.io/papers/IJCAI22a.pdf), IJCAI2022
+
+
 ### Understanding with pre-trained models
 
 - [Bridging pre-trained models and downstream tasks for source code understanding](https://arxiv.org/abs/2112.02268), ICSE2022
@@ -160,9 +167,7 @@ A list of papers and resources dedicated to code generation
 
 
 
-### Understanding with GNNs
 
-coming soon
 
 
 
