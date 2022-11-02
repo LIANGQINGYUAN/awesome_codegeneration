@@ -4,14 +4,16 @@
     - [Dataset for Text-to-SQL generation](#dataset-for-text-to-sql-generation)
   - [Techniques](#techniques)
     - [Generation architectures](#generation-architectures)
-    - [Representation for code](#representation-for-code)
     - [Pretrained models](#pretrained-models)
   - [Tools](#tools)
 - [Code Understanding](#code-understanding)
   - [Datasets](#datasets-1)
   - [Techniques](#techniques-1)
-    - [Understanding with pre-trained models](#understanding-with-pre-trained-models)
+    - [Variable representation](#variable-representation)
+    - [Code representation](#code-representation)
+    - [Code and comment](#code-and-comment)
     - [Understanding with GNNs](#understanding-with-gnns)
+    - [Understanding with pre-trained models](#understanding-with-pre-trained-models)
 - [End](#end)
 
 # Code Generation
